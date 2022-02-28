@@ -1,4 +1,3 @@
-import math
 import random
 import os
 
@@ -73,8 +72,6 @@ while startAgain == True :
             print("et bah....non, cette lettre n'y est pas")
             nombre_de_chance-=1
             LettreChoisiBAD += lettre
-            if nombre_de_chance == 0 :
-                print("Vous avez perdu désolé....")
             
        
 
